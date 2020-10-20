@@ -31,4 +31,6 @@ alias ....="cd ../../.."
 alias ~="cd ~"
 alias finder='open -a Finder ./'				# open current directory in finder
 alias qfind="find . -name " 					# find a file in directory
+alias tarup="tar -cvzf "					# standard tar with archive name specified
+alias tardown="tar -xvf "					# standard achrive decompress
 #----------------------------------------------------------
