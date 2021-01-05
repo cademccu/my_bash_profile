@@ -3,7 +3,7 @@
 #-------------------------PATHS-----------------------------
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=$JAVA_HOME/bin:$PATH
-export PATH=$PATH:~/scripts
+export PATH=$PATH:~/scripts					# add scripts directory to path
 # weps
 export WEPS_DATABASES=~/USDA/weps.install/db
 # subversion
@@ -29,8 +29,14 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias ~="cd ~"
+alias lsd='ls -d */'						# list only directories
+alias lsl='ls -l'						# long listing option
 alias finder='open -a Finder ./'				# open current directory in finder
 alias qfind="find . -name " 					# find a file in directory
 alias tarup="tar -cvzf "					# standard tar with archive name specified
 alias tardown="tar -xvf "					# standard achrive decompress
+alias lock="sudo chmod -R 000 "					# set permissions so that you can only write to a folder	
+alias unlock="chmod -R 700 "					# unlock the folder/file to full user permissions
+alias please="sudo "
+alias yeet="rm -rf "
 #----------------------------------------------------------
