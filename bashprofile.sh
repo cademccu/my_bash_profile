@@ -69,7 +69,7 @@ alias chist="history | sort -rn | grep 'cd' "			# searches for cd commands
 function setaa() { aa=$PWD; printf "\naa is set to: $aa\n\n"; }
 function aa() { cd $aa; }
 
-function setbb() { aa=$PWD; printf "\nbb is set to: $bb\n\n"; }
+function setbb() { bb=$PWD; printf "\nbb is set to: $bb\n\n"; }
 function bb() { cd $bb; }
 
 function setcc() { cc=$PWD; printf "\ncc is set to: $cc\n\n"; }
