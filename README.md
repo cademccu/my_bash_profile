@@ -1,7 +1,7 @@
-This is the edits I made to my .bash_profile
+Basic configs I like.
+
+Nothing private/work/project related.
+
+When I need a template for a new server or computer
 
 
-For showing off and when I need a template for a new server or computer
-
-
-Using bash on MacOS Monterey 
