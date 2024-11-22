@@ -1,7 +1,18 @@
 
+" line numbers by default
 set number
 
+" uses spaces for tabs/shifts
 set expandtab
 set tabstop=4
 set shiftwidth=4
 
+" turns syntax highlighting on 
+syntax on
+
+" based colorstyles
+"   wildcharm
+"   sorbet
+"   torte
+"   default
+colorscheme wildcharm
